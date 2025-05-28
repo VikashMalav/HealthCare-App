@@ -1,0 +1,109 @@
+.calenderMainContainer {
+    background-color: #f5f5f58f;
+    padding:0.8rem .1rem .1rem .1rem  ;
+    border-radius: 1rem;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.calender_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "poppins";
+    height: 20PX;
+    padding: .5rem .1rem;
+
+}
+
+.arrow {
+    width: 1rem;
+    height: 1.5rem;
+    padding: .2rem;
+}
+
+.calenderGridContainer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    place-items: center;
+    column-gap: .1rem;
+}
+
+.item {
+    
+    justify-items: center;
+    color: #00109d;
+
+}
+.item:hover{
+     background-color: #8a91d747;
+     transition: all 0.3s ease-in 0s;
+}
+
+.day {
+    font-size: .6rem;
+    font-weight: bold;
+    margin: .4rem;
+
+}
+
+.date {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: .6rem;
+    font-weight: bold;
+}
+
+.date>p {
+    margin: 0;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.appointments {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 1rem;
+    color: #00109d;
+    /* padding-bottom: .5rem; */
+}
+
+.appoint_details {
+    background-color: #7d89f733;
+    border-radius: 1.2rem;
+    font-size: .7rem;
+    padding-inline: 1rem;
+    width: 40%;
+    
+}
+
+.appoint_details:hover{
+    background-color: #00109d;
+    color: #fff;
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
+.title_icon_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .8rem;
+    font-weight: bold;
+}

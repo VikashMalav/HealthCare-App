@@ -1,0 +1,64 @@
+.upcomingScheduleContainer {
+    background-color: #f5f5f58f;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.eventDay {
+    color: rgb(156, 163, 175);
+
+}
+
+.oppointmentBox {
+    width: fit-content;
+    padding: .6rem;
+    background-color: #7d89f733;
+    border-radius: 1.3rem;
+
+}
+
+.oppointmentBox:hover {
+    background-color: #00109d;
+    color: #fff;
+    transition: all 0.3s ease-in 0s;
+
+}
+
+.containerOppointment {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+
+}
+
+.eventTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .8rem;
+    font-weight: bold;
+    gap:1rem;
+}
+
+.eventTitle img {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+}
+
+.eventTime {
+    margin-top: 0px;
+    font-size: .7rem;
+
+}
+
+.eventBox {
+    color: #00109d;
+}
+
+.boxTitle {
+    font-size: 1.2rem;
+    color: #00109d;
+    font-weight: bold;
+}

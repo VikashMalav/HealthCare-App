@@ -1,0 +1,37 @@
+.anatomyImage{
+     width: 300px;
+     height: 400px;
+    object-fit: contain;
+}
+.imageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background: #ffffff;
+    position: relative;
+}
+
+.healthyHeart{
+    background-color: rgba(146, 146, 243, 0.425);
+    border-radius: .5rem;
+    color: #00109d;
+    padding: .3rem;
+    font-size: small;
+    /* font-weight: bold; */
+}
+.alignHeart {
+    position: absolute;
+    right: 3%;
+    top: 20%;
+}
+.alignLeg{
+    position: absolute;
+    bottom: 6.5rem;
+    left: 2.5rem;
+}
+.iconStyle{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}

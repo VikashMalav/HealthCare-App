@@ -1,0 +1,17 @@
+.anotomyContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+
+}
+
+.healthCardList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 40%;
+    height: 80%;
+    padding: .2rem;
+    
+
+}
