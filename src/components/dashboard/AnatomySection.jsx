@@ -10,6 +10,8 @@ export default function AnatomySection() {
         <span><img className="iconStyle" src="heart.png" alt="" /></span>
         <span>Healthly Heart</span>
         </div>
+        <img className="scanner heart" src="scanner.png" alt="" />
+        <img className="scanner leg" src="scanner.png" alt="" />
         <div className='healthyHeart alignLeg '>
         <span><img className="iconStyle" src="leg.png" alt="" /></span>
         <span>Healthly Leg</span>

@@ -3,8 +3,8 @@ const activityData = [
     day: "Mon",
     bars: [
       { color: "gray", height: 100 },
-      { color: "blue", height: 40 },
-      { color: "gray", height: 50 },
+      { color: "gray", height: 40 },
+      { color: "blue", height: 50 },
       { color: "gray", height: 20 }
     ]
   },

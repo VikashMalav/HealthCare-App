@@ -1,9 +1,10 @@
-.anatomyImage{
-     width: 300px;
-     height: 400px;
+.anatomyImage {
+    width: 300px;
+    height: 400px;
     object-fit: contain;
 }
-.imageContainer{
+
+.imageContainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,26 +13,49 @@
     position: relative;
 }
 
-.healthyHeart{
-    background-color: rgba(146, 146, 243, 0.425);
+.healthyHeart {
+    position: absolute;
     border-radius: .5rem;
-    color: #00109d;
+    display: flex;
+    align-items: center;
     padding: .3rem;
-    font-size: small;
-    /* font-weight: bold; */
+    font-size: .7rem;
+
 }
+
 .alignHeart {
-    position: absolute;
-    right: 3%;
-    top: 20%;
+    background-color: #00109d;
+    color: #fff;
+    right: 1%;
+    top: 15%;
+    z-index: 1;
 }
-.alignLeg{
-    position: absolute;
+
+.alignLeg {
+    background-color: aqua;
+    color: #00109d;
     bottom: 6.5rem;
-    left: 2.5rem;
+    left: 0;
 }
-.iconStyle{
+
+.iconStyle {
     width: 20px;
     height: 20px;
     object-fit: contain;
+}
+
+.scanner {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+}
+
+.leg {
+    left: 5.5rem;
+    bottom: 6rem;
+}
+
+.heart {
+    top: 4.5rem;
+    right: 5.5rem;
 }

@@ -11,25 +11,25 @@ export default function ActivityFeed() {
       <div className=' activityBars'>
         <div className="days">
           {
-            activityData.map((item,index) =>
+            activityData.map((item, index) =>
               <div key={item.day} className="activityDay">
-               <div className='barOnlyContainer'>
-                {
-                  item.bars.map((bar,index)=>
-                    {(index+1)%2!==0 ?<div key={bar.color} className={`bar ${bar.color}`} style={{height:`${bar.height}%`}}></div>
-                    :<>{console.log(index)}
-                    <div key={bar.color} className={`bar ${bar.color}`} style={{height:`${bar.height}%`}}></div>
-                    <div key={bar.color} className={`bar ${bar.color}`} style={{height:`${bar.height}%`}}></div>
-                    </>
-                    }
-                  )
-                }
-               </div>
+                <div className='barOnlyContainer'>
+                  {
+                    item.bars.map((bar, index) =>
+                    ((index + 1) % 2 !== 0 ? <div key={bar.color} className={`bar gray`} style={{ height: `${bar.height}%` }}></div>
+                      : <div key={index} className='doubleBar'>
+                        <div className={`bar blue`} style={{ height: `${bar.height}%` }}></div>
+                        <div className={`bar purple`} style={{ height: `${bar.height}%` }}></div>
+                      </div>
+                    )
+                    )
+                  }
+                </div>
                 <span>{item.day}</span>
               </div>
             )
           }
-         
+
 
         </div>
       </div>
