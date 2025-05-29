@@ -1,6 +1,6 @@
 import React from 'react'
 import "../../styles/UpcomingSchedule.css"
-import upcomingSchedule from '../../data/UpcomingSchedule.'
+import upcomingSchedule from '../../data/upcomingSchedule'
 export default function UpcomingSchedule() {
   return (
     <div className='upcomingScheduleContainer'>
