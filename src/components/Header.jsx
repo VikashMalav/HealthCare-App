@@ -1,6 +1,5 @@
 import React from 'react'
 import "../styles/Header.css"
-import userImage from '../assets/profile_icon.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass, faPlus, faBell, faCircleUser, faSquarePlus } from '@fortawesome/free-solid-svg-icons'
 
@@ -25,7 +24,7 @@ export default function Header() {
                     <div className='profile'>
                        
                         {/* <FontAwesomeIcon icon={faCircleUser} size="2xl" style={{ color: "#06EDED" }} /> */}
-                       <img src={userImage} alt="User Profile" className="profile_image" />
+                       <img src="user.png" style={{width:30,height:30,backgroundColor:"#00ffff"}} alt="User Profile" className="profile_image" />
                         <FontAwesomeIcon icon={faSquarePlus} size="2xl" style={{ color: "#00109d" }} />
                     </div>
                 </div>

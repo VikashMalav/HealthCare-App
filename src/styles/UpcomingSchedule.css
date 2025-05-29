@@ -14,14 +14,15 @@
     padding: .6rem;
     background-color: #7d89f733;
     border-radius: 1.3rem;
-
+    transition: all 0.3s ease ;
+  
 }
 
 .oppointmentBox:hover {
     background-color: #00109d;
     color: #fff;
-    transition: all 0.3s ease-in 0s;
-
+   transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .containerOppointment {

@@ -1,10 +1,8 @@
 .mainActivityContainer {
     background: #f5f8ff;
     border-radius: 1rem;
-    padding: .3rem;
+    padding: .5rem;
     color: #00109d;
-    width: 100%;
-    max-width: 721px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 
 }
@@ -13,20 +11,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* padding: 1rem; */
 }
 
 .activityTitle span {
-    color: rgba(164, 164, 164, 0.491);
+    color: rgba(133, 127, 127, 0.621);
     font-size: small;
-
+    
 }
 
 .activityBars {
     background-color: #f8faff;
     border-radius: 15px;
-    padding: 20px 25px;
-    width: 90%;
-    max-width: 600px;
+    padding-top: 1rem;
     text-align: center;
 }
 
@@ -34,7 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
 }
 
 .activityDay {
@@ -42,7 +39,7 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-    gap: 6px;
+    gap: 5px;
     height: 120px;
 }
 
@@ -50,6 +47,7 @@
     width: 4px;
     border-radius: 4px;
     transition: height 0.3s;
+
 }
 
 .purple {
@@ -81,4 +79,8 @@
     flex-direction: column;
     align-content: center;
     justify-content: flex-end;
+}
+.weekDay{
+ color:#cac5c5;
+ font-size: small;
 }

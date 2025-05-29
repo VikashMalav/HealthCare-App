@@ -32,8 +32,8 @@ export default function Sidebar() {
           <h6 className='section_title'>{section}</h6>
          
           <ul className='section_list'>
-            {items.map(({ field, icon }) => (
-              <li key={field} className='sidebar_item'>
+            {items.map(({ field, icon },index) => (
+              <li key={index} className='sidebar_item'>
               
                 <FontAwesomeIcon icon={iconMap[icon]} style={{color:"#9ca3af"}} className='icon' />
                 <span className='label'style={{color:"#9ca3af"}}>{field}</span>

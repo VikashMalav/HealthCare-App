@@ -11,6 +11,7 @@ export default function DashboardOverview() {
         {healthStatus.map((item,index) =>
           <HealthStatusCards key={index} icon={item.icon} title={item.title} progressBarColor={item.color} date={item.date} />
         )}
+        <div className='details'>Details <img className="rightArrow" src="arrow_right.png" alt="" /> </div>
       </div>
     </div>
   )

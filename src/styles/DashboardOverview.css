@@ -12,6 +12,29 @@
     width: 40%;
     height: 80%;
     padding: .2rem;
-    
 
+
+}
+
+
+.rightArrow {
+    width: 18px;
+    height: 18px;
+    transition: transform 0.3s ease .1;
+    /* background: rebeccapurple; */
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: darkblue;
+    gap: .5rem;
+    font-size: .6rem;
+    cursor: pointer;
+transition: transform 0.3s ease;
+}
+
+.details:hover {
+    transform: scale(1.1);
 }

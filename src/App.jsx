@@ -13,7 +13,7 @@ export default function App() {
     <Sidebar />
    <DashboardMainContent/>
    </div>
-   <SimpleAppointmentCard/>
+   
    </>
   )
 }

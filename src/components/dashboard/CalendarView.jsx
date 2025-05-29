@@ -23,8 +23,8 @@ export default function CalendarView() {
                 </div>
                 <div className="time">
                 {
-                  item.timeSlots.map(time =>
-                      <p >{time}</p>
+                  item.timeSlots.map((time,index) =>
+                      <p key={index}>{time}</p>
                     )
                   }
                   </div>

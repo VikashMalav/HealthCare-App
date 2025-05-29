@@ -1,10 +1,12 @@
 .DashboardMainContent {
   display: grid;
   grid-template-columns: repeat(2,1fr); 
-  grid-template-rows:1fr 1fr;   
-  gap: .5rem;   
+  grid-template-rows:2fr 1fr;   
+  gap: .5rem;
+  z-index: 1;
+  /* align-items: stretch; */
                
-  /* height: 100vh;                   */
+  height: 100vh;                  
 }
 .dashboard_title{
     font-size: 1.3rem;
@@ -22,4 +24,13 @@
 font-size: small;
 color: #00109D;
 padding-right: 5px;
+}
+
+@media (max-width:768px){
+  .DashboardMainContent{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,auto);
+  }
+  
+
 }
