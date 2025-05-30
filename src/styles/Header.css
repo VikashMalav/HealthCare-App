@@ -79,11 +79,18 @@ h2 {
     ;
 
 }
+.menu{
+    display: none;
+}
 
 @media (max-width:480px) {
-    .main_search_container {
-        order: 3;
-        flex-basis: 100%;
+    
+    .plusIcon{
+        display: none;
+    }
+    .menu{
+
+        display: flex;
     }
 }
 
@@ -94,6 +101,10 @@ h2 {
         align-items: flex-start;
         align-items: center;
         flex-wrap: wrap;
+    }
+    .main_search_container {
+        order: 3;
+        flex-basis: 100%;
     }
 
     .search_container {

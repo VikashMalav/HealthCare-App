@@ -23,9 +23,10 @@ export default function Header() {
 
                     <div className='profile'>
                        
-                        {/* <FontAwesomeIcon icon={faCircleUser} size="2xl" style={{ color: "#06EDED" }} /> */}
+                        
                        <img src="user.png" style={{width:30,height:30,backgroundColor:"#00ffff"}} alt="User Profile" className="profile_image" />
-                        <FontAwesomeIcon icon={faSquarePlus} size="2xl" style={{ color: "#00109d" }} />
+                         <img className='menu' style={{width:30,height:30}} src="menu.png" alt="" />
+                        <FontAwesomeIcon className='plusIcon' icon={faSquarePlus} size="2xl" style={{ color: "#00109d" }} />
                     </div>
                 </div>
 
