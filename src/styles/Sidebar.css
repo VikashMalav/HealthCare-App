@@ -48,3 +48,9 @@ ul {
   color: #9ca3af;
   font-size: .8rem;
 }
+
+@media (max-width:480px){
+    .main_sidebar_container{
+      display: none;
+    }
+}
